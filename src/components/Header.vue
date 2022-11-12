@@ -9,7 +9,7 @@
         <div class="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
             <nav class="relative z-50 flex justify-between border-b-2 border-white/5 py-4 md:py-7">
                 <RouterLink class="flex items-center" to="/">
-                    <IconLogo class="w-36 md:w-auto"/>
+                    <IconLogo class="w-40 md:w-auto"/>
                 </RouterLink>
                 <ul class="font-base items-center gap-x-7 xl:gap-x-10 hidden lg:flex">
                     <li>
@@ -51,7 +51,7 @@
                                     </li>
                                     <li>
                                         <a class="flex items-center gap-x-3 px-6 py-2.5 duration-200 hover:bg-white/5" href="javascript:;">
-                                            <img src="@/assets/images/coinbase.svg" alt="icon"/> Coinbase Wallet
+                                            <img src="@/assets/images/coinbase.png"  width="26" alt="icon"/> Coinbase Wallet
                                         </a>
                                     </li>
                                     <li>
@@ -98,7 +98,7 @@
                                     <a class="duration-200 hover:text-primary-800" href="javascript:;">How to start</a >
                                 </li>
                                 <li>
-                                    <a class="duration-200 hover:text-primary-800" href="javascript:;">Lock Liquidity</a >
+                                    <RouterLink class="duration-200 hover:text-primary-800" to="/lock-liquidity">Lock Liquidity</RouterLink>
                                 </li>
                                 <li>
                                     <a class="duration-200 hover:text-primary-800" href="javascript:;">Recent locks</a >

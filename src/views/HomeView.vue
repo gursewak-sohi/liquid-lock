@@ -15,9 +15,9 @@
                 <p class="text-base md:text-xl max-w-3xl mb-8 md:mb-14">Velit, odio bibendum eu, viverra sit laoreet
                     posuere. Ut scelerisque posuere massa amet. Ornare lacinia vitae at vestibulum
                     morbi. Volutpat libero curabitur feugiat.</p>
-                <button
-                    type="button"
-                    class="bg-primary-800 text-base md:text-lg md:leading-8 rounded-2xl md:rounded-3xl px-12 py-3.5 md:py-4 text-white font-syne font-bold hover:bg-primary-800/90 duration-300 transition-colors active:scale-95 mb-16 md:mb-24">Get Started</button>
+                <RouterLink
+                    to="/lock-liquidity"
+                    class="bg-primary-800 text-base md:text-lg md:leading-8 rounded-2xl md:rounded-3xl px-12 py-3.5 md:py-4 text-white font-syne font-bold hover:bg-primary-800/90 duration-300 transition-colors active:scale-95 mb-16 md:mb-24">Get Started</RouterLink>
                 <div class="flex flex-col md:flex-row items-center gap-y-5 gap-x-6 lg:gap-x-14">
                     <div
                         class="flex flex-col w-72 md:w-80 lg:w-96 items-center justify-center p-8 md:p-11 text-center rounded-3xl md:rounded-[36px] bg-gradient-to-bl from-primary-800/30 gap-y-3 md:gap-y-5">
@@ -134,11 +134,11 @@
                     <h3 class="font-syne font-bold text-white text-2xl md:text-5xl mb-3 md:mb-5">Create a Custom Token Lockup Now</h3>
                     <p class="text-sm md:text-base mb-6 md:mb-9">Lock your tokens or liquidity tokens in a few simple steps with Team Finance. Our process is easy, fast and secure.</p>
                     <div class="flex flex-col md:flex-row items-center gap-y-3 md:gap-x-4  w-full md:w-auto">
-                        <button
-                            type="button"
+                        <RouterLink
+                            to="/lock-liquidity"
                             class="rounded-2xl border border-white w-10/12 md:w-auto bg-white px-6 py-3 font-syne text-sm md:text-base font-bold text-primary-800 transition-colors duration-300 hover:bg-white/90 hover:border-white/90 active:scale-95">
                             Create your lock
-                        </button>
+                        </RouterLink>
                         <button
                             type="button"
                             class="rounded-2xl border border-white w-10/12 md:w-auto bg-transparent px-6 py-3 font-syne text-sm md:text-base font-bold text-white transition-colors duration-300 hover:bg-white/10 active:scale-95">

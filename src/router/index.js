@@ -14,6 +14,12 @@ const router = createRouter({
             name: 'lock-liquidity',
             component: () =>
                 import ('../views/LockView.vue')
+        },
+        {
+            path: '/withdraw-liquidity',
+            name: 'withdraw-liquidity',
+            component: () =>
+                import ('../views/WithDrawView.vue')
         }
     ]
 })
